@@ -7,5 +7,6 @@ import (
 
 func main() {
 	player := height.Height(5, 13)
-	fmt.Println(player.ToString())
+	fmt.Println(player.GetInches())
+
 }

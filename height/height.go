@@ -29,3 +29,13 @@ func (h PlayerHeight) ToString() string {
 	fs := fmt.Sprintf(`%0.f' %0.f"`, h.Feet, h.Inches)
 	return fs
 }
+
+func (h PlayerHeight) GetFeet() string {
+	fs := fmt.Sprintf(`Feet: %0.f`, h.Feet)
+	return fs
+}
+
+func (h PlayerHeight) GetInches() string {
+	fs := fmt.Sprintf(`Inches: %0.f`, h.Inches)
+	return fs
+}
